@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.*
+*.env
+
+# Runtime artifacts
+.invoice_counter.json
+*.log
+
+# Generated invoices and temporary outputs
+invoice_filled.docx
+invoice_result.pdf
+*.overlay.pdf
+
+# Optional generated PDFs (keep templates in .docx)
+# Uncomment if you never want generated PDFs in git:
+# *.pdf
