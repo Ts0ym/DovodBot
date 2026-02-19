@@ -1,0 +1,3 @@
+python-docx
+num2words
+python-telegram-bot
